@@ -5,7 +5,7 @@ module Erp::Partners
     
     belongs_to :creator, class_name: "Erp::User"
     validates :name, uniqueness: true
-    validates :name, :birth, :owner, uniqueness: true
+    validates :name, :birth, :owner, presence: true
     
     after_create :create_alias
     def create_alias
