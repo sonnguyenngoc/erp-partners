@@ -55,3 +55,5 @@ vi:
             enter_short_description: "Nhập mô tả ngắn"
             letter: "Thư ngỏ"
             enter_letter: "Nhập thư ngỏ"
+            address: "Địa chỉ"
+            enter_address: "Nhập địa chỉ"
