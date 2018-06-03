@@ -1,0 +1,57 @@
+vi:
+  backend:
+    contacts_contacts:
+      contact:
+        edit: "Sửa"
+        delete: "Xóa"
+  layouts:
+    erp:
+      backend:
+        sidebar:
+          partner: "Đối tác liên kết"
+          partners: "Danh sách đối tác"
+  erp:
+    partners: 
+      backend:
+        partners:
+          create:
+            success: "Thêm đối tác liên kết thành công."
+          update:
+            success: "Cập nhật Thêm đối tác liên kết thành công thành công."
+          destroy:
+            success: "Xóa Thêm đối tác liên kết thành công thành công."
+          delete_all:
+            success: "Xóa Thêm đối tác liên kết thành công được chọn thành công."
+          index:
+            partners: "Danh sách đối tác"
+            create: "Thêm đối tác"
+            name: "Tên đối tác"
+            birth: "Ngày thành lập"
+            owner: "Chủ sở hữu"
+            website: "Trang web"
+          list:
+            name: "Tên đối tác"
+            birth: "Ngày thành lập"
+            owner: "Chủ sở hữu"
+            website: "Trang web"
+            delete: "Xóa đối tác"
+            no_matching_records_found: "Danh sách đối tác không được tìm thấy."
+          new:
+            partners: "Danh sách đối tác"
+            create: "Thêm đối tác"
+          edit:
+            partners: "Danh sách đối tác"
+            create: "Thêm đối tác"
+          form:
+            name: "Tên đối tác"
+            enter_name: "Nhập tên đối tác"
+            birth: "Ngày thành lập"
+            choose_birth: "Chọn ngày thành lập"
+            owner: "Chủ sở hữu"
+            enter_owner: "Nhập chủ sở hữu"
+            website: "Trang web"
+            enter_website: "Nhập trang web"
+            short_description: "Mô tả ngắn"
+            enter_short_description: "Nhập mô tả ngắn"
+            letter: "Thư ngỏ"
+            enter_letter: "Nhập thư ngỏ"
